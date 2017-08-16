@@ -97,11 +97,12 @@ public class CordovaPinPluginActivity extends Activity {
                 button2.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent broadcast = new Intent();
-                        broadcast.setAction("PIN");
-                        broadcast.putExtra("Button", 2);
-                        broadcast.putExtra("PIN",pinEditText.getText().toString());
-                        sendBroadcast(broadcast);
+//                        Intent broadcast = new Intent();
+//                        broadcast.setAction("PIN");
+//                        broadcast.putExtra("Button", 2);
+//                        broadcast.putExtra("PIN",pinEditText.getText().toString());
+//                        sendBroadcast(broadcast);
+                        pinEditText.setText("");
                     }
                 });
             } else {
