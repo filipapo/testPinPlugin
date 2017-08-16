@@ -14,5 +14,5 @@ exports.clearPin = function(arg0, success, error) {
 };
 
 exports.clearPin = function(arg0, success, error) {
-    exec(success, error, PLUGIN_NAME, 'showError', [arg0]);
+    exec(success, error, PLUGIN_NAME, 'showError', [arg0]); 
 };
