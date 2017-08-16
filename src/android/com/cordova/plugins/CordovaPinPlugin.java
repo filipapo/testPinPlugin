@@ -48,9 +48,10 @@ public class CordovaPinPlugin extends CordovaPlugin {
     public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {
 
         Context context = cordova.getActivity().getApplicationContext();
-        this.callbackContext = callbackContext;
 
         if (action.equals("showPin")) {
+            this.callbackContext = callbackContext;
+            
             String hint = null;
             String button1 = null;
             String button2 = null;
