@@ -20,7 +20,8 @@ import org.json.JSONObject;
 
 public class CordovaPinPluginActivity extends Activity {
 
-    private EditText pinEditText, errorArea;
+    private EditText pinEditText;
+    private TextView errorArea;
     private Button button1, button2;
 
     int PIN_LENGTH = 4;
@@ -39,8 +40,7 @@ public class CordovaPinPluginActivity extends Activity {
         setContentView(resources.getIdentifier("cordova_pin_plugin_activity", "layout", package_name));
 
 
-        errorArea = (EditText) findViewById(getResource("errorArea", "id"));
-//        errorArea.setEnabled(false);
+        errorArea = (TextView) findViewById(getResource("errorArea", "id"));
 
         pinEditText = (EditText) findViewById(getResource("pinEditText", "id"));
         pinEditText.addTextChangedListener(new TextWatcher() {
