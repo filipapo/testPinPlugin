@@ -40,7 +40,7 @@ public class CordovaPinPluginActivity extends Activity {
 
 
         errorArea = (EditText) findViewById(getResource("errorArea", "id"));
-        errorArea.setEnabled(false);
+//        errorArea.setEnabled(false);
 
         pinEditText = (EditText) findViewById(getResource("pinEditText", "id"));
         pinEditText.addTextChangedListener(new TextWatcher() {

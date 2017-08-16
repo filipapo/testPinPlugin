@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="908466af-aad9-436b-a14d-7c461cdb807e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugin.js" afterPath="$PROJECT_DIR$/www/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPluginActivity.java" afterPath="$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPluginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml" afterPath="$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml" />
     </list>
     <ignored path="testPinPlugin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,24 +26,24 @@
       <file leaf-file-name="CordovaPinPluginActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPluginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="145" column="20" selection-start-line="145" selection-start-column="20" selection-end-line="145" selection-end-column="20" />
+            <state relative-caret-position="262">
+              <caret line="67" column="29" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cordova_pin_plugin_activity.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cordova_pin_plugin_activity.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            <state relative-caret-position="442">
+              <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plugin.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/plugin.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -97,10 +98,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml" />
         <option value="$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPlugin.java" />
-        <option value="$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPluginActivity.java" />
         <option value="$PROJECT_DIR$/www/plugin.js" />
+        <option value="$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPluginActivity.java" />
+        <option value="$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml" />
       </list>
     </option>
   </component>
@@ -545,14 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPluginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="145" column="20" selection-start-line="145" selection-start-column="20" selection-end-line="145" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -565,14 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -597,6 +582,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPluginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="67" column="29" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
           <folding />
         </state>
       </provider>

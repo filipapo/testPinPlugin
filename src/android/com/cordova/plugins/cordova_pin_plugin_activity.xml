@@ -34,7 +34,6 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/imageView"
                 android:layout_centerHorizontal="true"
-                android:hint="error here"
                 android:inputType="text"
                 android:textAlignment="center" />
 
