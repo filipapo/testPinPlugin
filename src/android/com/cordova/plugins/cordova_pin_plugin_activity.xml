@@ -29,14 +29,24 @@
                     android:layout_alignParentTop="true" />
 
             <EditText
-                    android:id="@+id/pinEditText"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/imageView"
-                    android:layout_centerHorizontal="true"
-                    android:hint="Please enter your PIN"
-                    android:inputType="numberPassword"
-                    android:textAlignment="center" />
+                android:id="@+id/errorArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_centerHorizontal="true"
+                android:hint="error here"
+                android:inputType="text"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/pinEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_centerHorizontal="true"
+                android:hint="Please enter your PIN"
+                android:inputType="numberPassword"
+                android:textAlignment="center" />
 
             <Space
                     android:layout_width="match_parent"

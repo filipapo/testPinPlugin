@@ -12,3 +12,7 @@ exports.closePin = function(arg0, success, error) {
 exports.clearPin = function(arg0, success, error) {
     exec(success, error, PLUGIN_NAME, 'clearPin', [arg0]);
 };
+
+exports.clearPin = function(arg0, success, error) {
+    exec(success, error, PLUGIN_NAME, 'showError', [arg0]);
+};

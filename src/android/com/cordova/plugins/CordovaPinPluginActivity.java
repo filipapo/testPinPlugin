@@ -20,7 +20,7 @@ import org.json.JSONObject;
 
 public class CordovaPinPluginActivity extends Activity {
 
-    private EditText pinEditText;
+    private EditText pinEditText, errorArea;
     private Button button1, button2;
 
     int PIN_LENGTH = 4;
@@ -30,6 +30,7 @@ public class CordovaPinPluginActivity extends Activity {
         super.onCreate(savedInstanceState);
         IntentFilter filter = new IntentFilter();
         filter.addAction("CLEAR_PIN");
+        filter.addAction("SHOW_ERROR");
         registerReceiver(receiver, filter);
 
         String package_name = getApplication().getPackageName();
@@ -37,6 +38,9 @@ public class CordovaPinPluginActivity extends Activity {
 
         setContentView(resources.getIdentifier("cordova_pin_plugin_activity", "layout", package_name));
 
+
+        errorArea = (EditText) findViewById(getResource("errorArea", "id"));
+        errorArea.setEnabled(false);
 
         pinEditText = (EditText) findViewById(getResource("pinEditText", "id"));
         pinEditText.addTextChangedListener(new TextWatcher() {
@@ -59,6 +63,9 @@ public class CordovaPinPluginActivity extends Activity {
                     broadcast.putExtra("Button", 0);
                     sendBroadcast(broadcast);
                     pinEditText.setText("");
+                }
+                else if(s.length() > 0){
+                    errorArea.setText("");
                 }
             }
         });
@@ -127,14 +134,20 @@ public class CordovaPinPluginActivity extends Activity {
     private BroadcastReceiver receiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, final Intent intent) {
-//            final Handler handler = new Handler();
-//            handler.postDelayed(new Runnable() {
-//                @Override
-//                public void run() {
-//                    pinEditText.setText("");
-//                }
-//            }, 50);
-            pinEditText.setText("");
+            final Handler handler = new Handler();
+            handler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    if(intent){
+                        if(intent.getAction().equals("CLEAR_PIN")){
+                            pinEditText.setText("");
+                        }
+                        else if(intent.getAction().equals("SHOW_ERROR")){
+                            errorArea.setText(intent.getStringExtra("errorMessage"));
+                        }
+                    }
+                }
+            }, 50);
         }
     };
 
