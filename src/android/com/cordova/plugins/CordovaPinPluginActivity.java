@@ -138,13 +138,11 @@ public class CordovaPinPluginActivity extends Activity {
             handler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
-                    if(intent){
-                        if(intent.getAction().equals("CLEAR_PIN")){
-                            pinEditText.setText("");
-                        }
-                        else if(intent.getAction().equals("SHOW_ERROR")){
-                            errorArea.setText(intent.getStringExtra("errorMessage"));
-                        }
+                    if(intent.getAction().equals("CLEAR_PIN")){
+                        pinEditText.setText("");
+                    }
+                    else if(intent.getAction().equals("SHOW_ERROR")){
+                        errorArea.setText(intent.getStringExtra("errorMessage"));
                     }
                 }
             }, 50);
