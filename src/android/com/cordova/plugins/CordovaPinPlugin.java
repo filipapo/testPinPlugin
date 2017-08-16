@@ -91,7 +91,7 @@ public class CordovaPinPlugin extends CordovaPlugin {
         if (action.equals("showError")) {
             Intent broadcast = new Intent();
             broadcast.setAction("SHOW_ERROR");
-            broadcast.putExtra("errorMessage", args.getJSONObject(0).getString("errorMessage"););
+            broadcast.putExtra("errorMessage", args.getJSONObject(0).getString("errorMessage"));
             cordova.getActivity().getApplicationContext().sendBroadcast(broadcast);
             return true;
         }

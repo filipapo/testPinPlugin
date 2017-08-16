@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="908466af-aad9-436b-a14d-7c461cdb807e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPlugin.java" afterPath="$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPlugin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPluginActivity.java" afterPath="$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPluginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml" afterPath="$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugin.js" afterPath="$PROJECT_DIR$/www/plugin.js" />
     </list>
     <ignored path="testPinPlugin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,8 +55,8 @@
       <file leaf-file-name="CordovaPinPlugin.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="92" column="43" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="43" />
+            <state relative-caret-position="262">
+              <caret line="93" column="95" selection-start-line="93" selection-start-column="95" selection-end-line="93" selection-end-column="95" />
               <folding>
                 <element signature="e#0#7#0" expanded="true" />
               </folding>
@@ -83,8 +79,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml" />
         <option value="$PROJECT_DIR$/www/plugin.js" />
-        <option value="$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPlugin.java" />
         <option value="$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPluginActivity.java" />
+        <option value="$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPlugin.java" />
       </list>
     </option>
   </component>
@@ -513,14 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/plugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPluginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -529,10 +517,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="92" column="43" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="43" />
+        <state relative-caret-position="262">
+          <caret line="93" column="95" selection-start-line="93" selection-start-column="95" selection-end-line="93" selection-end-column="95" />
           <folding>
             <element signature="e#0#7#0" expanded="true" />
           </folding>
