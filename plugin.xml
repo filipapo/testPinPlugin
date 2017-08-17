@@ -34,5 +34,7 @@
                      target-dir="src/com/cordova/plugins/"/>
         <source-file src="src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml"
                      target-dir="res/layout"/>
+        <source-file src="src/android/com/cordova/plugins/myemCareLogo.png"
+            target-dir="res/drawable"/>
     </platform>
 </plugin>

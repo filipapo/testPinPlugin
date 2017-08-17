@@ -51,7 +51,7 @@ public class CordovaPinPlugin extends CordovaPlugin {
 
         if (action.equals("showPin")) {
             this.callbackContext = callbackContext;
-            
+
             String hint = null;
             String button1 = null;
             String button2 = null;
