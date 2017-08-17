@@ -134,7 +134,7 @@ public class CordovaPinPlugin extends CordovaPlugin {
                     callbackContext.sendPluginResult(result);
                     //callbackContext.success(data);
                 }
-            }, 200);
+            }, 1);
 
         }
     };

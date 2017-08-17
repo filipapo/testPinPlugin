@@ -146,7 +146,7 @@ public class CordovaPinPluginActivity extends Activity {
                         errorArea.setText(intent.getStringExtra("errorMessage"));
                     }
                 }
-            }, 50);
+            }, 1);
         }
     };
 
