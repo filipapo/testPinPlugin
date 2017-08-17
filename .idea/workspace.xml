@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="908466af-aad9-436b-a14d-7c461cdb807e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin.xml" afterPath="$PROJECT_DIR$/plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml" afterPath="$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml" />
     </list>
     <ignored path="testPinPlugin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +25,7 @@
       <file leaf-file-name="CordovaPinPluginActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPluginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
+            <state relative-caret-position="272">
               <caret line="64" column="33" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="33" />
               <folding />
             </state>
@@ -45,10 +45,17 @@
       <file leaf-file-name="cordova_pin_plugin_activity.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="24" column="47" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="47" />
+            <state relative-caret-position="425">
+              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logo.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/logo.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -62,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
@@ -75,8 +82,8 @@
       <file leaf-file-name="CordovaPinPlugin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="114" column="57" selection-start-line="114" selection-start-column="35" selection-end-line="114" selection-end-column="57" />
+            <state relative-caret-position="271">
+              <caret line="87" column="40" selection-start-line="87" selection-start-column="40" selection-end-line="87" selection-end-column="40" />
               <folding>
                 <element signature="e#0#7#0" expanded="true" />
               </folding>
@@ -100,8 +107,8 @@
         <option value="$PROJECT_DIR$/www/plugin.js" />
         <option value="$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPluginActivity.java" />
         <option value="$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPlugin.java" />
-        <option value="$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml" />
         <option value="$PROJECT_DIR$/plugin.xml" />
+        <option value="$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml" />
       </list>
     </option>
   </component>
@@ -662,24 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPluginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="64" column="33" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="114" column="57" selection-start-line="114" selection-start-column="35" selection-end-line="114" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#7#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -696,11 +685,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml">
+    <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPluginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="47" />
+        <state relative-caret-position="272">
+          <caret line="64" column="33" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="87" column="40" selection-start-line="87" selection-start-column="40" selection-end-line="87" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#7#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -710,6 +709,19 @@
           <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
