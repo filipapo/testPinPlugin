@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="908466af-aad9-436b-a14d-7c461cdb807e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin.xml" afterPath="$PROJECT_DIR$/plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPlugin.java" afterPath="$PROJECT_DIR$/src/android/com/cordova/plugins/CordovaPinPlugin.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/android/com/cordova/plugins/myemCareLogo.png" afterPath="$PROJECT_DIR$/src/android/com/cordova/plugins/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml" afterPath="$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml" />
     </list>
     <ignored path="testPinPlugin.iws" />
@@ -48,8 +46,8 @@
       <file leaf-file-name="cordova_pin_plugin_activity.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+            <state relative-caret-position="214">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -709,8 +707,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/android/com/cordova/plugins/cordova_pin_plugin_activity.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        <state relative-caret-position="214">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding />
         </state>
       </provider>
