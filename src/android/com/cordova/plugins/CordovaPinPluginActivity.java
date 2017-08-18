@@ -94,11 +94,10 @@ public class CordovaPinPluginActivity extends Activity {
                         sendBroadcast(broadcast);
                     }
                 });
+            } else {
+                button1.setVisibility(View.INVISIBLE);
+                button1.setText("");
             }
-//            else {
-//                button1.setVisibility(View.GONE);
-//                button1.setText("");
-//            }
 
             if (button2Title != null) {
                 button2.setVisibility(View.VISIBLE);
